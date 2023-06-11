@@ -1,6 +1,6 @@
 # UpdateDateNTime
 
-  ![](https://github.com/retrozinndev/UpdateDateNTime/blob/master/UpdateDateNTime/Resources/logo.png?raw=true)
+  ![](https://github.com/retrozinndev/UpdateDateNTime/blob/master/UpdateDateNTime/Resources/logoGitHub.png)
   
   This is UpDateN'Time! A program that I made using Visual Basic(for some reason) for 
   those people that are unlucky and always need to sync their date and time manually.
