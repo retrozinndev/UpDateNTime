@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "UpdateDateNTime": {
+      "commandName": "Project",
+      "commandLineArgs": "-runas"
+    }
+  }
+}
