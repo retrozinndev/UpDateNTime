@@ -103,6 +103,7 @@ Partial Class Form1
         Button2.TabIndex = 6
         Button2.Text = "Restart w32time"
         Button2.UseVisualStyleBackColor = True
+        Button2.Visible = False
         ' 
         ' Button3
         ' 
@@ -112,10 +113,12 @@ Partial Class Form1
         Button3.TabIndex = 7
         Button3.Text = "Repair w32time"
         Button3.UseVisualStyleBackColor = True
+        Button3.Visible = False
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
+        Label4.BackColor = Color.Transparent
         Label4.Location = New Point(539, 307)
         Label4.Name = "Label4"
         Label4.Size = New Size(94, 15)

@@ -1,13 +1,9 @@
 ﻿Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Do something when window loads
+        ' Do something when the window loads
     End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
-    End Sub
-    ' Update Time Button
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        ' "Update!" Button
         Dim startInfo As New ProcessStartInfo()
         startInfo.FileName = "cmd.exe"
         startInfo.Verb = "runas" ' Admin request (not working for some reason)
