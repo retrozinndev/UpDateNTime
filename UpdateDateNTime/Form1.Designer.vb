@@ -32,7 +32,10 @@ Partial Class Form1
         Button2 = New Button()
         Button3 = New Button()
         Label4 = New Label()
+        githubLink = New LinkLabel()
+        PictureBox2 = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label1
@@ -103,7 +106,6 @@ Partial Class Form1
         Button2.TabIndex = 6
         Button2.Text = "Restart w32time"
         Button2.UseVisualStyleBackColor = True
-        Button2.Visible = False
         ' 
         ' Button3
         ' 
@@ -119,17 +121,38 @@ Partial Class Form1
         ' 
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
-        Label4.Location = New Point(605, 304)
+        Label4.Location = New Point(605, 292)
         Label4.Name = "Label4"
         Label4.Size = New Size(28, 15)
         Label4.TabIndex = 8
         Label4.Text = "v1.0"
+        ' 
+        ' githubLink
+        ' 
+        githubLink.AutoSize = True
+        githubLink.Location = New Point(560, 307)
+        githubLink.Name = "githubLink"
+        githubLink.Size = New Size(73, 15)
+        githubLink.TabIndex = 9
+        githubLink.TabStop = True
+        githubLink.Text = "retrozinndev"
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Location = New Point(535, 302)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(26, 22)
+        PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox2.TabIndex = 10
+        PictureBox2.TabStop = False
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(645, 331)
+        Controls.Add(githubLink)
         Controls.Add(Label4)
         Controls.Add(Button3)
         Controls.Add(Button2)
@@ -139,9 +162,12 @@ Partial Class Form1
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
+        Controls.Add(PictureBox2)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Form1"
         Text = "UpDateN'Time!"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -155,4 +181,6 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Label4 As Label
+    Friend WithEvents githubLink As LinkLabel
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
