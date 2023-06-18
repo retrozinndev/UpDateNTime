@@ -100,12 +100,13 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(12, 274)
+        Button2.Location = New Point(12, 267)
         Button2.Name = "Button2"
         Button2.Size = New Size(105, 23)
         Button2.TabIndex = 6
-        Button2.Text = "Restart w32time"
+        Button2.Text = "Restart w32tm"
         Button2.UseVisualStyleBackColor = True
+        Button2.Visible = False
         ' 
         ' Button3
         ' 
@@ -121,7 +122,7 @@ Partial Class Form1
         ' 
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
-        Label4.Location = New Point(605, 292)
+        Label4.Location = New Point(603, 289)
         Label4.Name = "Label4"
         Label4.Size = New Size(28, 15)
         Label4.TabIndex = 8
@@ -139,6 +140,7 @@ Partial Class Form1
         ' 
         ' PictureBox2
         ' 
+        PictureBox2.Cursor = Cursors.Hand
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
         PictureBox2.Location = New Point(535, 302)
         PictureBox2.Name = "PictureBox2"
