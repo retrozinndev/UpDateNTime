@@ -78,7 +78,7 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(261, 252)
+        Button1.Location = New Point(248, 243)
         Button1.Name = "Button1"
         Button1.Size = New Size(135, 42)
         Button1.TabIndex = 4
@@ -97,7 +97,7 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(12, 296)
+        Button2.Location = New Point(12, 274)
         Button2.Name = "Button2"
         Button2.Size = New Size(105, 23)
         Button2.TabIndex = 6
@@ -107,7 +107,7 @@ Partial Class Form1
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(12, 271)
+        Button3.Location = New Point(12, 296)
         Button3.Name = "Button3"
         Button3.Size = New Size(105, 23)
         Button3.TabIndex = 7
@@ -119,11 +119,11 @@ Partial Class Form1
         ' 
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
-        Label4.Location = New Point(539, 307)
+        Label4.Location = New Point(605, 304)
         Label4.Name = "Label4"
-        Label4.Size = New Size(94, 15)
+        Label4.Size = New Size(28, 15)
         Label4.TabIndex = 8
-        Label4.Text = "v1.0 by retrozinn"
+        Label4.Text = "v1.0"
         ' 
         ' Form1
         ' 

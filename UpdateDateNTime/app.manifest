@@ -16,7 +16,8 @@
  Remova esse elemento se seu aplicativo requer essa virtualização para compatibilidade
             com versões anteriores.
         -->
-        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+
+			  <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
       </requestedPrivileges>
     </security>
   </trustInfo>
@@ -41,6 +42,9 @@
 
       <!-- Windows 10 -->
       <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+	  
+	  <!-- Windows 11? -->
+	  <!--<supportedOS Id="{????????????????????????????????????}" />-->
 
     </application>
   </compatibility>
@@ -61,8 +65,7 @@
   -->
 
   <!-- Habilita temas para caixas de diálogo e controles comuns do Windows (Windows XP e posteriores) -->
-  <!--
-  <dependency>
+  <!-- <dependency>
     <dependentAssembly>
       <assemblyIdentity
           type="win32"
@@ -75,5 +78,5 @@
     </dependentAssembly>
   </dependency>
   -->
-
+	
 </assembly>

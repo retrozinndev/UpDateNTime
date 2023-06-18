@@ -7,7 +7,14 @@
         Dim command As String
         command = "initialize.cmd" & " & " & "startTimeService.cmd" & " & " & "resync.cmd"
 
-        Shell("cmd.exe /c " & command)
+        Dim startInfo As New ProcessStartInfo("cmd.exe", "/c " & command)
+        startInfo.Verb = "runas" ' Especifica para executar como administrador
+
+        Try
+            Process.Start(startInfo)
+        Catch ex As Exception
+            ' exception occurred
+        End Try
     End Sub
     ' TODO: Restart w32time button (hidden)
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
