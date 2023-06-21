@@ -1,4 +1,4 @@
-# UpDateNTime (pre-release)
+# UpDateNTime (Beta)
 
   ![](https://github.com/retrozinndev/UpdateDateNTime/blob/master/UpdateDateNTime/Resources/logoGitHub.png)
   
