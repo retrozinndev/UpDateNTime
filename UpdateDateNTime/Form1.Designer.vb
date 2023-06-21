@@ -28,148 +28,100 @@ Partial Class Form1
         Label2 = New Label()
         Label3 = New Label()
         Button1 = New Button()
-        CheckBox1 = New CheckBox()
-        Button2 = New Button()
-        Button3 = New Button()
+        AutoStartCheckBox = New CheckBox()
+        RestartServiceButton = New Button()
+        RepairServiceButton = New Button()
         Label4 = New Label()
         githubLink = New LinkLabel()
-        PictureBox2 = New PictureBox()
+        githubLogo = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(githubLogo, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label1
         ' 
-        Label1.AutoSize = True
+        resources.ApplyResources(Label1, "Label1")
         Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(274, 43)
         Label1.Name = "Label1"
-        Label1.Size = New Size(94, 19)
-        Label1.TabIndex = 0
-        Label1.Text = "Welcome to "
         ' 
         ' PictureBox1
         ' 
         PictureBox1.ErrorImage = My.Resources.Resources._error
-        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.InitialImage = CType(resources.GetObject("PictureBox1.InitialImage"), Image)
-        PictureBox1.Location = New Point(219, 43)
+        resources.ApplyResources(PictureBox1, "PictureBox1")
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(204, 104)
-        PictureBox1.SizeMode = PictureBoxSizeMode.CenterImage
-        PictureBox1.TabIndex = 1
         PictureBox1.TabStop = False
         ' 
         ' Label2
         ' 
-        Label2.AutoSize = True
-        Label2.Location = New Point(157, 182)
+        resources.ApplyResources(Label2, "Label2")
         Label2.Name = "Label2"
-        Label2.Size = New Size(327, 15)
-        Label2.TabIndex = 2
-        Label2.Text = "Update your date and time just by clicking the button below!"
         ' 
         ' Label3
         ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(119, 197)
+        resources.ApplyResources(Label3, "Label3")
         Label3.Name = "Label3"
-        Label3.Size = New Size(404, 15)
-        Label3.TabIndex = 3
-        Label3.Text = "If you want to run the app when Windows starts, check de checkbox below."
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(248, 243)
+        resources.ApplyResources(Button1, "Button1")
         Button1.Name = "Button1"
-        Button1.Size = New Size(135, 42)
-        Button1.TabIndex = 4
-        Button1.Text = "Update!"
         Button1.UseVisualStyleBackColor = True
         ' 
-        ' CheckBox1
+        ' AutoStartCheckBox
         ' 
-        CheckBox1.AutoSize = True
-        CheckBox1.Location = New Point(164, 300)
-        CheckBox1.Name = "CheckBox1"
-        CheckBox1.Size = New Size(320, 19)
-        CheckBox1.TabIndex = 5
-        CheckBox1.Text = "Update automatically when windows starts(unavailable)"
-        CheckBox1.UseVisualStyleBackColor = True
+        resources.ApplyResources(AutoStartCheckBox, "AutoStartCheckBox")
+        AutoStartCheckBox.Name = "AutoStartCheckBox"
+        AutoStartCheckBox.UseVisualStyleBackColor = True
         ' 
-        ' Button2
+        ' RestartServiceButton
         ' 
-        Button2.Location = New Point(12, 267)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(105, 23)
-        Button2.TabIndex = 6
-        Button2.Text = "Restart w32tm"
-        Button2.UseVisualStyleBackColor = True
-        Button2.Visible = False
+        resources.ApplyResources(RestartServiceButton, "RestartServiceButton")
+        RestartServiceButton.Name = "RestartServiceButton"
+        RestartServiceButton.UseVisualStyleBackColor = True
         ' 
-        ' Button3
+        ' RepairServiceButton
         ' 
-        Button3.Location = New Point(12, 296)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(105, 23)
-        Button3.TabIndex = 7
-        Button3.Text = "Repair w32time"
-        Button3.UseVisualStyleBackColor = True
-        Button3.Visible = False
+        resources.ApplyResources(RepairServiceButton, "RepairServiceButton")
+        RepairServiceButton.Name = "RepairServiceButton"
+        RepairServiceButton.UseVisualStyleBackColor = True
         ' 
         ' Label4
         ' 
-        Label4.AutoSize = True
+        resources.ApplyResources(Label4, "Label4")
         Label4.BackColor = Color.Transparent
-        Label4.Location = New Point(603, 289)
         Label4.Name = "Label4"
-        Label4.Size = New Size(28, 15)
-        Label4.TabIndex = 8
-        Label4.Text = "v1.0"
         ' 
         ' githubLink
         ' 
-        githubLink.AutoSize = True
-        githubLink.Location = New Point(560, 307)
+        resources.ApplyResources(githubLink, "githubLink")
         githubLink.Name = "githubLink"
-        githubLink.Size = New Size(73, 15)
-        githubLink.TabIndex = 9
         githubLink.TabStop = True
-        githubLink.Text = "retrozinndev"
         ' 
-        ' PictureBox2
+        ' githubLogo
         ' 
-        PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(535, 302)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(26, 22)
-        PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox2.TabIndex = 10
-        PictureBox2.TabStop = False
+        githubLogo.Cursor = Cursors.Hand
+        resources.ApplyResources(githubLogo, "githubLogo")
+        githubLogo.Name = "githubLogo"
+        githubLogo.TabStop = False
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        resources.ApplyResources(Me, "$this")
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(645, 331)
         Controls.Add(githubLink)
         Controls.Add(Label4)
-        Controls.Add(Button3)
-        Controls.Add(Button2)
-        Controls.Add(CheckBox1)
+        Controls.Add(RepairServiceButton)
+        Controls.Add(RestartServiceButton)
+        Controls.Add(AutoStartCheckBox)
         Controls.Add(Button1)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
-        Controls.Add(PictureBox2)
-        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Controls.Add(githubLogo)
         Name = "Form1"
-        Text = "UpDateN'Time!"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(githubLogo, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -179,10 +131,10 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents AutoStartCheckBox As CheckBox
+    Friend WithEvents RestartServiceButton As Button
+    Friend WithEvents RepairServiceButton As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents githubLink As LinkLabel
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents githubLogo As PictureBox
 End Class
