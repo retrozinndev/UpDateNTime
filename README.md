@@ -1,4 +1,4 @@
-# UpdateDateNTime
+# UpDateNTime (pre-release)
 
   ![](https://github.com/retrozinndev/UpdateDateNTime/blob/master/UpdateDateNTime/Resources/logoGitHub.png)
   
@@ -12,5 +12,5 @@
 
 ### Want to help?
   If you want to help the project grow up, you can freely make any change using forks, 
-  and if you want to report some bug, use Issues, and if you want to add something 
-  useful to the source code, use Pull Requests.
+  and if you want to report some bug, use Issues, and if you want to fix something 
+  in the source code, use Pull Requests.
