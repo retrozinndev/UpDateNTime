@@ -1,11 +1,4 @@
 ﻿Imports System.Reflection
-<Assembly: AssemblyProduct("UpDateNTime")>
-<Assembly: AssemblyCopyright("© 2023, retrozinndev")>
-<Assembly: AssemblyCompany("retrozinndev")>
-<Assembly: AssemblyDescription("An open-source program that syncs your time with the internet!")>
-<Assembly: AssemblyFileVersion("1.0.1")>
-
-' Added some Assembly Info because Windows SmartScreen was blocking the app
 
 Public Class Form1
 

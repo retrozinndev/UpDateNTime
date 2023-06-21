@@ -8,6 +8,7 @@
     <MyType>WindowsForms</MyType>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <PackageIcon>Icon.png</PackageIcon>
+    <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Resources\Icon.ico" />
     <Content Include="Resources\restart.cmd">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
