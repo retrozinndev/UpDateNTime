@@ -20,13 +20,13 @@ Public Class Form1
         ' "Update!" Button
         UpdateTime()
     End Sub
-    ' TO DO: Restart w32time button (hidden)
+    ' TO DO: Restart w32time button (not working)
     Private Sub RestartServiceButton_Click(sender As Object, e As EventArgs) Handles RestartServiceButton.Click
         Dim fileName As String = "Resources\restart.cmd"
         Dim command As String = "cmd /c start " & fileName
         Shell(command)
     End Sub
-    ' TO DO: Repair w32time button (hidden)
+    ' TO DO: Repair w32time button sometimes it just doesn't work
     Private Sub RepairServiceButton_Click(sender As Object, e As EventArgs) Handles RepairServiceButton.Click
         Dim fileName As String = "Resources\repair.cmd"
         Dim command As String = "cmd /c /start " & fileName

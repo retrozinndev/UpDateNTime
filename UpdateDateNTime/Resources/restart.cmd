@@ -1,3 +1,3 @@
-﻿net stop w32time
+net stop w32time
 net start w32time
 exit
