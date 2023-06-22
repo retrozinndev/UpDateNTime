@@ -1,7 +1,7 @@
 # UpDateNTime (Beta)
- > ⚠️ In development
+ > ⚠️ **Stage**: In development
  
-  ![](https://github.com/retrozinndev/UpdateDateNTime/blob/master/UpdateDateNTime/Resources/logoGitHub.png)
+  <a href=""><img src="https://github.com/retrozinndev/UpdateDateNTime/blob/master/UpdateDateNTime/Resources/logoGitHub.png" text="UpDateNTime" alt="UpDateNTime-Logo"></a>
 
   Download here: <br>
   <a href="https://github.com/retrozinndev/UpDateNTime/releases/download/beta-v1.0.1/Release.zip">
