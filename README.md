@@ -12,8 +12,11 @@
        a. Click here: <br>
          <a href="https://github.com/retrozinndev/UpDateNTime/releases/download/beta-v1.0.1/Release.zip">
          <img src="https://img.shields.io/github/downloads/retrozinndev/UpDateNTime/total.svg"></a><br>
-       b. Extract the "**Relese.zip**" File (Use <a href="https://www.win-rar.com/">**WinRAR**</a> or <a href="https://www.7-zip.org/">**7-zip**</a>)
-  
+       b. Extract the "**Relese.zip**" File (Use the Windows Extractor, <a href="https://www.win-rar.com/">**WinRAR**</a> or <a href="https://www.7-zip.org/">**7-zip**</a>)<br>
+       ![extract tutorial](https://github.com/retrozinndev/UpDateNTime/assets/65513943/81db4147-9226-4cde-8781-e67c33d3fd20)
+
+       c. Go to the extracted folder, and start the "UpDateNTime.exe" file to start the app. <br>
+       ![Executable Tutorial](https://github.com/retrozinndev/UpDateNTime/assets/65513943/476d368b-d645-4862-97ca-abeeb15d7fd5)
   
   4. I can't open the app, it gives me an error <br>
        Solution A: Install <a href="https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/sdk-6.0.411-windows-x64-installer">**Microsoft .NET 6.0** </a> <br>
