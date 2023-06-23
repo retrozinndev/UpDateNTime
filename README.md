@@ -31,7 +31,7 @@
 ### License info.
   <a href="https://www.github.com/retrozinndev/UpDateNTime/LICENSE.txt">
   <img src="https://img.shields.io/github/license/retrozinndev/UpDateNTime.svg"></a><br>
-  This repository uses the MIT License, so you can modify, private use, distribution and
+  This repository uses the MIT License, so you can modify for private use, distribution and
   Commercial Use. **DO NOT** forget to give credits to the original code! Put the same
   LICENSE file into your fork (or simply don't modify it).
 
