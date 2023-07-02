@@ -36,9 +36,9 @@
   LICENSE file into your fork (or simply don't modify it).
 
 ### Want to help?
-  <a href="https://github.com/retrozinndev/UpDateNTime/pulls">
+  <!-- <a href="https://github.com/retrozinndev/UpDateNTime/pulls">
   <img src="https://img.shields.io/github/issues-pr/retrozinndev/UpDateNTime.svg"></a>
-  <br>
+  <br> -->
   If you want to help the project grow up, you can freely make any change using forks, 
   and if you want to report some bug, use Issues, and if you want to fix something 
   in the source code, use Pull Requests.
