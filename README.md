@@ -23,7 +23,7 @@
        Solution B: Disable your antivirus while using the program, it can be blocking the use of the app.
 
   5. How do I update my time?
-     - Easily start the program, or, if it didn't automatically updated your time, click the "Update!" button on the app window.
+     - The program starts easily, or, if it doesn't automatically updated your time, click the "Update!" button on the app window.
      
   
   
