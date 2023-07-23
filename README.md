@@ -28,12 +28,17 @@
   
   
 
-### License info.
-  <a href="https://www.github.com/retrozinndev/UpDateNTime/LICENSE.txt">
-  <img src="https://img.shields.io/github/license/retrozinndev/UpDateNTime.svg"></a><br>
-  This repository uses the MIT License, so you can modify for private use, distribution or
-  Commercial Use. **DO NOT** forget to give credits to the original code! Put the same
-  LICENSE file into your fork (or simply don't modify it).
+### Info.
+  - License <br>
+     <a href="https://www.github.com/retrozinndev/UpDateNTime/LICENSE.txt">
+     <img src="https://img.shields.io/github/license/retrozinndev/UpDateNTime.svg"></a><br>
+     This repository uses the MIT License, so you can modify for private use, distribution or
+     Commercial Use. **DO NOT** forget to give credits to the original code! Put the same
+     LICENSE file into your fork (or simply don't modify it).
+ - Warning <br>
+     The original program name was "UpdateDateN'Time", and it was changed to "UpDateN'Time" 
+     because it looks better. That's why some of the project files still has the old program
+     name.
 
 ### Want to help?
   <!-- <a href="https://github.com/retrozinndev/UpDateNTime/pulls">
