@@ -1,49 +1,49 @@
-# UpDateNTime (Beta)
- > ⚠️ **Stage**: In development
+# UpDateNTime
+ > ⚠️ **Development Stage**: Incomplete (Beta)
  
   <a href=""><img src="https://github.com/retrozinndev/UpdateDateNTime/blob/master/UpdateDateNTime/Resources/logoGitHub.png" text="UpDateNTime" alt="UpDateNTime-Logo"></a>
 
-  This is UpDateN'Time! A program that I made using Visual Basic(for some reason) for 
+  This is **UpDateN'Time**! A program that I made using Visual Basic .NET(for some reason) for 
   those people that are unlucky and always need to sync their date and time manually.
 
-  ### Tutorial
+ ### Tutorial
 
-  1. How do I download the app? <br>
-       a. Click here: <br>
-         <a href="https://github.com/retrozinndev/UpDateNTime/releases/download/beta-v1.0.1/Release.zip">
-         <img src="https://img.shields.io/github/downloads/retrozinndev/UpDateNTime/total.svg"></a><br>
-       b. Extract the "**Relese.zip**" File (Use the Windows Extractor, <a href="https://www.win-rar.com/">**WinRAR**</a> or <a href="https://www.7-zip.org/">**7-zip**</a>)<br>
-       ![extract tutorial](https://github.com/retrozinndev/UpDateNTime/assets/65513943/81db4147-9226-4cde-8781-e67c33d3fd20)
+ #### Downloading and starting the app:
+   1. Donwload the app down below: <br>
+     <a href="https://github.com/retrozinndev/UpDateNTime/releases/download/beta-v1.0.1/Release.zip">
+     <img src="https://img.shields.io/github/downloads/retrozinndev/UpDateNTime/total.svg"></a><br>
+   2. Extract the "**Relese.zip**" File (You can use either **Windows default Extractor**, <a href="https://www.win-rar.com/">**WinRAR**</a> or <a href="https://www.7-  
+     zip.org/">**7-zip**</a>)<br>
+     ![extraction tutorial](https://github.com/retrozinndev/UpDateNTime/assets/65513943/77039635-52cf-4fe2-8083-65296c048f55)
+   3. Go to the extracted folder, and start the "**UpDateNTime.exe**"(or UpdateDateNTime.exe) file to start the app. <br>
+     ![executable tutorial](https://github.com/retrozinndev/UpDateNTime/assets/65513943/a08eba5c-2798-449d-b375-03f3462d1874)
 
-       c. Go to the extracted folder, and start the "UpDateNTime.exe" file to start the app. <br>
-       ![Executable Tutorial](https://github.com/retrozinndev/UpDateNTime/assets/65513943/476d368b-d645-4862-97ca-abeeb15d7fd5)
-  
-  4. I can't open the app, it gives me an error <br>
-       Solution A: Install <a href="https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/sdk-6.0.411-windows-x64-installer">**Microsoft .NET 6.0** </a> <br>
-       Solution B: Disable your antivirus while using the program, it can be blocking the use of the app.
+ #### I can't start the app, it gives me an error! <br>
+   Possible solutions: <br>
+       1. Install <a href="https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/sdk-6.0.411-windows-x64-installer">**Microsoft .NET 6.0** </a> <br>
+       2. Disable your antivirus while using the program, it can be blocking the usage of the app.
 
-  5. How do I update my time?
-     - The program starts easily, or, if it doesn't automatically updated your time, click the "Update!" button on the app window.
+ #### How do I update my time?
+   - When the program starts, it automatically updates your time. But, if it doesn't automatically update your time, click the "Update!" button on the app window.
      
-  
   
 
 ### Info.
   - License <br>
      <a href="https://www.github.com/retrozinndev/UpDateNTime/LICENSE.txt">
      <img src="https://img.shields.io/github/license/retrozinndev/UpDateNTime.svg"></a><br>
-     This repository uses the MIT License, so you can modify for private use, distribution or
-     Commercial Use. **DO NOT** forget to give credits to the original code! Put the same
+         This repository uses the <a href="https://mit-license.org/">**MIT License**</a>, so **you can modify for Private Use, Distribution or
+     Commercial Use**. But **DO NOT** forget to give credits to the original project! Put the same
      LICENSE file into your fork (or simply don't modify it).
- - Warning <br>
+  - Warning <br>
      The original program name was "UpdateDateN'Time", and it was changed to "UpDateN'Time" 
      because it looks better. That's why some of the project files still has the old program
      name.
 
-### Want to help?
+### Want to help the project?
   <!-- <a href="https://github.com/retrozinndev/UpDateNTime/pulls">
   <img src="https://img.shields.io/github/issues-pr/retrozinndev/UpDateNTime.svg"></a>
   <br> -->
-  If you want to help the project grow up, you can freely make any change using forks, 
-  and if you want to report some bug, use Issues, and if you want to fix something 
-  in the source code, use Pull Requests.
+  If you want to help the project grow up, you can freely make any change, 
+  and if you want to report some bug, use Issues, and if you want to fix or add something 
+  into the source code, use Pull Requests.
