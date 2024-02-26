@@ -1,7 +1,7 @@
 # UpDateNTime
  > ⚠️ **Stage**: Beta
  
-  <a href=""><img src="https://github.com/retrozinndev/UpdateDateNTime/blob/master/UpdateDateNTime/Resources/logoGitHub.png" text="UpDateNTime" alt="UpDateNTime-Logo"></a>
+  <a href=""><img src="https://github.com/retrozinndev/UpdateDateNTime/blob/master/UpdateDateNTime/Resources/logoGitHub.png?raw=true" text="UpDateNTime" alt="UpDateNTime Logo"></a>
 
   This is **UpDateN'Time**! A program that I made using Visual Basic .NET(for some reason) for 
   those people that are unlucky and always need to sync their date and time manually.
