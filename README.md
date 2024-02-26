@@ -24,14 +24,14 @@
   -->
 
 ## Start using
- ### Downloading and starting the app:
+ ### Download and use the app:
    1. Donwload the app with the button below: <br>
      <a href="https://github.com/retrozinndev/UpDateNTime/releases/download/beta-v1.0.1/Release.zip">
      <img src="https://img.shields.io/badge/Download_UpDateNTime-blue">
      </a>
      <br>
    3. Open your **Downloads folder** in your File Explorer
-   4. Extract the "**Relese.zip**" File (You can use either **Windows default Extractor**, <a href="https://www.win-rar.com/">**WinRAR**</a> or <a href="https://www.7-  
+   4. Extract the "**Release.zip**" File (You can use either **Windows Zip Extractor**(built-in), <a href="https://www.win-rar.com/">**WinRAR**</a> or <a href="https://www.7-  
    zip.org/">**7-zip**</a>)<br>
    ![Extracting the Release.zip file](https://github.com/retrozinndev/UpDateNTime/assets/65513943/77039635-52cf-4fe2-8083-65296c048f55)
    5. Go to the extracted folder, and start the "**UpDateNTime.exe**"(or UpdateDateNTime.exe) file to start the app. <br>
@@ -40,13 +40,13 @@
 #### How do I update my time?
    - Just simply click the "Update!" button in the app window, or enable the "Update automatically when Windows starts" checkbox.
 
- #### I can't start the app, it gives me an error! 
+#### I can't start the app, it gives me an error! 
    Possible solutions: 
    1. Install <a href="https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/sdk-6.0.411-windows-x64-installer">**Microsoft .NET 6.0** </a> <br>
    2. Allow the application to run in your antivirus, it can be blocking the usage of the app.
    3. Nothing works for you? [Open a New Issue](https://github.com/retrozinndev/UpDateNTime/issues/new) and describe your problem there.
 
-### Information
+## Information
 The original app name was "UpdateDateN'Time", and later was changed to "UpDateNTime", 
 because it looks better. That's why some files still use the old name.
 
