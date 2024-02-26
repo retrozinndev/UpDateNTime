@@ -50,6 +50,11 @@
 The original app name was "UpdateDateN'Time", and later was changed to "UpDateNTime", 
 because it looks better. That's why some files still use the old name.
 
+## License
+This repository uses the [**MIT License**](https://mit-license.org/), so **you can use modify it just for you, distribute the app or
+    use commercially**. But **DO NOT** forget to give credits to the original project(and developer)! Put the same
+    LICENSE file into your fork (or simply don't modify it).
+
 ## Contributing
 ### Want to help the project?
   If you want to help the project grow up, you can freely make any change, already got the code? [Start a Pull Request](https://github.com/retrozinndev/UpDateNTime/pulls). 
