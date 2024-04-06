@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Window
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,27 +22,18 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Form1))
-        Label1 = New Label()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Window))
         PictureBox1 = New PictureBox()
         Label2 = New Label()
         Label3 = New Label()
         Button1 = New Button()
         AutoStartCheckBox = New CheckBox()
-        RestartServiceButton = New Button()
-        RepairServiceButton = New Button()
         Label4 = New Label()
         githubLink = New LinkLabel()
         githubLogo = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(githubLogo, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' Label1
-        ' 
-        resources.ApplyResources(Label1, "Label1")
-        Label1.BackColor = Color.Transparent
-        Label1.Name = "Label1"
         ' 
         ' PictureBox1
         ' 
@@ -73,18 +64,6 @@ Partial Class Form1
         AutoStartCheckBox.Name = "AutoStartCheckBox"
         AutoStartCheckBox.UseVisualStyleBackColor = True
         ' 
-        ' RestartServiceButton
-        ' 
-        resources.ApplyResources(RestartServiceButton, "RestartServiceButton")
-        RestartServiceButton.Name = "RestartServiceButton"
-        RestartServiceButton.UseVisualStyleBackColor = True
-        ' 
-        ' RepairServiceButton
-        ' 
-        resources.ApplyResources(RepairServiceButton, "RepairServiceButton")
-        RepairServiceButton.Name = "RepairServiceButton"
-        RepairServiceButton.UseVisualStyleBackColor = True
-        ' 
         ' Label4
         ' 
         resources.ApplyResources(Label4, "Label4")
@@ -104,36 +83,29 @@ Partial Class Form1
         githubLogo.Name = "githubLogo"
         githubLogo.TabStop = False
         ' 
-        ' Form1
+        ' Window
         ' 
         resources.ApplyResources(Me, "$this")
         AutoScaleMode = AutoScaleMode.Font
         Controls.Add(githubLink)
         Controls.Add(Label4)
-        Controls.Add(RepairServiceButton)
-        Controls.Add(RestartServiceButton)
         Controls.Add(AutoStartCheckBox)
         Controls.Add(Button1)
         Controls.Add(Label3)
         Controls.Add(Label2)
-        Controls.Add(Label1)
         Controls.Add(PictureBox1)
         Controls.Add(githubLogo)
-        Name = "Form1"
+        Name = "Window"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(githubLogo, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents AutoStartCheckBox As CheckBox
-    Friend WithEvents RestartServiceButton As Button
-    Friend WithEvents RepairServiceButton As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents githubLink As LinkLabel
     Friend WithEvents githubLogo As PictureBox
