@@ -1,5 +1,5 @@
 # UpDateNTime
- > ⚠️ **Stage**: Beta
+> ⚠️ Known issue: Windows can't find `Resources\` folder for UpDateNTime, see [Issue#3](https://github.com/retrozinndev/UpDateNTime/issues/3)
  
   <a href=""><img src="https://github.com/retrozinndev/UpdateDateNTime/blob/main/UpdateDateNTime/Resources/logoGitHub.png?raw=true" text="UpDateNTime" alt="UpDateNTime Logo"></a>
 
