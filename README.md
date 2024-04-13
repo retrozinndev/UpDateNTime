@@ -6,22 +6,10 @@
   This is **UpDateN'Time**! A program that I made using Visual Basic .NET(for some reason) for 
   those people that are unlucky and always need to sync their date and time manually.
 
-  <a href="https://github.com/retrozinndev/UpDateNTime/pulls">
-   <img src="https://img.shields.io/github/issues-pr/retrozinndev/UpDateNTime.svg">
-  </a>
-  
-  <a href="https://github.com/retrozinndev/UpDateNTime/releases/download/beta-v1.0.1/Release.zip">
-   <img src="https://img.shields.io/github/downloads/retrozinndev/UpDateNTime/total.svg">
-  </a>
-  
-  <a href="?tab=MIT-1-ov-file">
-   <img src="https://img.shields.io/github/license/retrozinndev/UpDateNTime.svg">
-  </a>
-  <!--
- <a href="https://github.com/retrozinndev/UpDateNTime/releases/">
-      <img src="https://img.shields.io/github/v/release/retrozinndev/UpDateNTime">
-     </a>
-  -->
+  [![PRs](https://img.shields.io/github/issues-pr/retrozinndev/UpDateNTime.svg)](https://github.com/retrozinndev/UpDateNTime/pulls)
+  [![Downloads](https://img.shields.io/github/downloads/retrozinndev/UpDateNTime/total.svg)](https://github.com/retrozinndev/UpDateNTime/releases/download/beta-v1.0.1/Release.zip)
+  [![MIT License](https://img.shields.io/github/license/retrozinndev/UpDateNTime.svg)](?tab=MIT-1-ov-file)
+  [![GitHub Release](https://img.shields.io/github/v/release/retrozinndev/UpDateNTime?include_prereleases&display_name=release)](https://github.com/retrozinndev/UpDateNTime/releases/latest)
 
 ## Start using
  ### Download and use the app:
