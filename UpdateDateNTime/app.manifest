@@ -8,7 +8,6 @@
  Se você deseja alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó requestedExecutionLevel 
  por um dos seguintes.
 
-<requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
@@ -17,7 +16,7 @@
             com versões anteriores.
         -->
 
-			  <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+	    <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
       </requestedPrivileges>
     </security>
   </trustInfo>
@@ -41,10 +40,7 @@
       <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
 
       <!-- Windows 10 -->
-      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
-	  
-	  <!-- Windows 11? -->
-	  <!--<supportedOS Id="{????????????????????????????????????}" />-->
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
 
     </application>
   </compatibility>
