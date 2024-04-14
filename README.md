@@ -1,7 +1,5 @@
 # UpDateNTime
-> ⚠️ Known issue: Windows can't find `Resources\` folder for UpDateNTime, see [Issue#3](https://github.com/retrozinndev/UpDateNTime/issues/3)
- 
-  <a href=""><img src="https://github.com/retrozinndev/UpdateDateNTime/blob/main/UpdateDateNTime/Resources/logoGitHub.png?raw=true" text="UpDateNTime" alt="UpDateNTime Logo"></a>
+  <a href="/"><img src="https://github.com/retrozinndev/UpdateDateNTime/blob/main/UpdateDateNTime/Resources/logoGitHub.png?raw=true" text="UpDateNTime" alt="UpDateNTime Logo"></a>
 
   This is **UpDateN'Time**! A program that I made using Visual Basic .NET(for some reason) for 
   those people that are unlucky and always need to sync their date and time manually.
@@ -14,7 +12,7 @@
 ## Start using
  ### Download and use the app:
    1. Donwload the app with the button below: <br>
-     <a href="https://github.com/retrozinndev/UpDateNTime/releases/download/beta-v1.0.1/Release.zip">
+     <a href="https://github.com/retrozinndev/UpDateNTime/releases/download/v1.0.1/UpDateNTime.zip">
      <img src="https://img.shields.io/badge/Download_UpDateNTime-blue">
      </a>
      <br>
