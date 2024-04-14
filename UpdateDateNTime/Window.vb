@@ -7,19 +7,18 @@ Public Class Window
         Shell("cmd /k start " & profileURL, AppWinStyle.Hide)
     End Sub
     Public Sub UpdateTime()
-        Dim fileName As String = "Resources\update.cmd"
-        Dim command As String = "cmd /k start " & fileName
-        Shell(command, AppWinStyle.Hide)
+        Dim fileName As String = AutoStart.GetCurrentExecutablePath() & "\Resources\update.cmd"
+        Shell("cmd /k start " & fileName, AppWinStyle.Hide)
     End Sub
     Private Sub Window_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         UpdateTime()
-        If My.Computer.FileSystem.FileExists(AutoStart.GetLinkPath) Then
+        If My.Computer.FileSystem.FileExists(AutoStart.GetLinkPath()) Then
             AutoStartCheckBox.Checked = True
         End If
     End Sub
     Private Sub Window_LoadFocused(sender As Object, e As EventArgs) Handles MyBase.GotFocus, MyBase.Load
         ' Start minimized if autostart is on
-        If My.Computer.FileSystem.FileExists(AutoStart.GetLinkPath) Then
+        If My.Computer.FileSystem.FileExists(AutoStart.GetLinkPath()) Then
             WindowState = FormWindowState.Normal
             NotifyIcon.Visible = True
             Hide()
