@@ -5,7 +5,7 @@
   those people that are unlucky and always need to sync their date and time manually.
 
   [![PRs](https://img.shields.io/github/issues-pr/retrozinndev/UpDateNTime.svg)](https://github.com/retrozinndev/UpDateNTime/pulls)
-  [![Downloads](https://img.shields.io/github/downloads/retrozinndev/UpDateNTime/total.svg)](https://github.com/retrozinndev/UpDateNTime/releases/download/beta-v1.0.1/Release.zip)
+  [![Downloads](https://img.shields.io/github/downloads/retrozinndev/UpDateNTime/total.svg)](https://github.com/retrozinndev/UpDateNTime/releases/latest)
   [![MIT License](https://img.shields.io/github/license/retrozinndev/UpDateNTime.svg)](?tab=MIT-1-ov-file)
   [![GitHub Release](https://img.shields.io/github/v/release/retrozinndev/UpDateNTime?include_prereleases&display_name=release)](https://github.com/retrozinndev/UpDateNTime/releases/latest)
 
