@@ -1,9 +1,8 @@
-﻿Imports System.IO
-Imports IWshRuntimeLibrary
+﻿Imports IWshRuntimeLibrary
 
 Public Class AutoStart
     Private Shared ReadOnly startupFolderPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup)
-    Private Shared ReadOnly currentExecutablePath = Process.GetCurrentProcess().MainModule.FileName
+    Private Shared ReadOnly currentExecutablePath = My.Application.Info.DirectoryPath
     Private Shared ReadOnly executableName = Process.GetCurrentProcess().MainModule.ModuleName
 
     Private AutoStartShell As WshShell
@@ -13,7 +12,7 @@ Public Class AutoStart
         Try
             AutoStartShell = New WshShell
             StartupLink = CType(AutoStartShell.CreateShortcut(GetStartupDirectory() & "\" & GetExecutableName() & ".lnk"), IWshShortcut)
-            StartupLink.TargetPath = GetCurrentExecutablePath()
+            StartupLink.TargetPath = GetCurrentExecutablePath() & "\" & GetExecutableName()
             StartupLink.Save()
         Catch ex As Exception
             MsgBox(ex.Message)
@@ -24,7 +23,7 @@ Public Class AutoStart
         Try
             My.Computer.FileSystem.DeleteFile(GetLinkPath())
         Catch ex As Exception
-            MsgBox("Couldn't delete auto start link:" & ex.Message)
+            MsgBox("Couldn't delete auto start link: " & ex.Message)
         End Try
 
     End Sub
@@ -33,15 +32,15 @@ Public Class AutoStart
         Return CType(GetStartupDirectory() & "\" & GetExecutableName() & ".lnk", String)
     End Function
 
-    Public Shared Function GetStartupDirectory()
+    Public Shared Function GetStartupDirectory() As String
         Return startupFolderPath
     End Function
 
-    Public Shared Function GetCurrentExecutablePath()
-        Return currentExecutablePath
+    Public Shared Function GetCurrentExecutablePath() As String
+        Return currentExecutablePath.ToString()
     End Function
 
-    Public Shared Function GetExecutableName()
+    Public Shared Function GetExecutableName() As String
         Return executableName
     End Function
 
