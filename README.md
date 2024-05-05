@@ -13,13 +13,9 @@ those people that are unlucky and always need to sync their date and time manual
 
  ### Download and usage
    1. Donwload the app with the button below: <br>
-     <a href="https://github.com/retrozinndev/UpDateNTime/releases/download/v1.0.1/UpDateNTime.zip">
-     <img src="https://img.shields.io/badge/Download_UpDateNTime-blue">
-     </a>
-     <br>
+   [![Download Button](https://img.shields.io/badge/Download_UpDateNTime-blue)](https://github.com/retrozinndev/UpDateNTime/releases/download/v1.0.1/UpDateNTime.zip)
    3. Open your **Downloads folder** in your File Explorer
-   4. Extract the "**Release.zip**" File (You can use either **Windows Zip Extractor**(built-in), <a href="https://www.win-rar.com/">**WinRAR**</a> or <a href="https://www.7-  
-   zip.org/">**7-zip**</a>)<br>
+   4. Extract the "**Release.zip**" File (You can use either **Windows Zip Extractor**(built-in), [**WinRAR**](https://win-rar.com) or [**7-zip**](https://7-zip.org)
    ![Extracting the Release.zip file](https://github.com/retrozinndev/UpDateNTime/assets/65513943/77039635-52cf-4fe2-8083-65296c048f55)
    5. Go to the extracted folder, and start the "**UpDateNTime.exe**"(or UpdateDateNTime.exe) file to start the app. <br>
    ![Running the app](https://github.com/retrozinndev/UpDateNTime/assets/65513943/a08eba5c-2798-449d-b375-03f3462d1874)
@@ -30,7 +26,7 @@ Just simply click the "Update!" button in the app window, or enable the "Update 
 ## Support
 ### I can't start the app, it gives me an error! 
 Possible solutions: 
-1. Install <a href="https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/sdk-6.0.411-windows-x64-installer">**Microsoft .NET 6.0** </a> <br>
+1. Install [**Microsoft .NET 6.0**](https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/sdk-6.0.411-windows-x64-installer)
 2. Allow the application to run in your antivirus, it can be blocking the usage of the app.
 3. Nothing works for you? [Open a new Issue](https://github.com/retrozinndev/UpDateNTime/issues/new) and describe your problem there.
 
