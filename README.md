@@ -1,4 +1,4 @@
-# UpDateNTime
+# 🕙 UpDateNTime
 [![UpDateNTime Logo](UpdateDateNTime/Resources/logoGitHub.png)](#Start-using)
 
 This is **UpDateN'Time**! A program that I made using Visual Basic .NET(for some reason) for 
@@ -9,7 +9,7 @@ those people that are unlucky and always need to sync their date and time manual
 [![PRs](https://img.shields.io/github/issues-pr/retrozinndev/UpDateNTime.svg)](https://github.com/retrozinndev/UpDateNTime/pulls)
 [![MIT License](https://img.shields.io/github/license/retrozinndev/UpDateNTime.svg)](?tab=MIT-1-ov-file)
 
-## Getting the app
+## 📥 Getting the app
 
 1. You can download the app clicking below: <br>
   [![Download](https://img.shields.io/badge/Download_UpDateNTime-blue)](https://github.com/retrozinndev/UpDateNTime/releases/download/v1.0.1/UpDateNTime.zip)
