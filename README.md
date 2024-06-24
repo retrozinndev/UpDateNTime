@@ -1,5 +1,5 @@
 # 🕙 UpDateNTime
-[![UpDateNTime Logo](UpdateDateNTime/Resources/logoGitHub.png)](#Start-using)
+[![UpDateNTime Logo](UpdateDateNTime/Resources/logoGitHub.png)](#-getting-the-app)
 
 This is **UpDateN'Time**! A program that I made using Visual Basic .NET(for some reason) for 
 those people that are unlucky and always need to sync their date and time manually.
