@@ -11,7 +11,7 @@ This is **UpDateN'Time**! A simple app made for those people that are unlucky an
 ## 📥 Getting the app
 
 1. You can download the app by clicking in the button below: <br>
-  [![Download](https://img.shields.io/badge/Download%20UpDateNTime-blue)](https://github.com/retrozinndev/UpDateNTime/releases/download/latest/UpDateNTime.zip)
+  [![Download](https://img.shields.io/badge/Download%20UpDateNTime-blue)](https://github.com/retrozinndev/UpDateNTime/releases/latest/download/UpDateNTime.zip)
 
 3. Open the **⬇️ Downloads** folder in your **📂 File Explorer**
 
