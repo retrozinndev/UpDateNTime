@@ -1,8 +1,7 @@
 # 🕙 UpDateNTime
 [![UpDateNTime Logo](UpdateDateNTime/Resources/logoGitHub.png)](#-getting-the-app)
 
-This is **UpDateN'Time**! A program that I made using Visual Basic .NET(for some reason) for 
-those people that are unlucky and always need to sync their date and time manually.
+This is **UpDateN'Time**! A simple app made for those people that are unlucky and need to sync their Date & Time manually.
 
 [![GitHub Release](https://img.shields.io/github/v/release/retrozinndev/UpDateNTime?include_prereleases&display_name=release)](https://github.com/retrozinndev/UpDateNTime/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/retrozinndev/UpDateNTime/total.svg)](https://github.com/retrozinndev/UpDateNTime/releases/latest)
@@ -11,34 +10,36 @@ those people that are unlucky and always need to sync their date and time manual
 
 ## 📥 Getting the app
 
-1. You can download the app clicking below: <br>
-  [![Download](https://img.shields.io/badge/Download_UpDateNTime-blue)](https://github.com/retrozinndev/UpDateNTime/releases/download/v1.0.1/UpDateNTime.zip)
+1. You can download the app by clicking in the button below: <br>
+  [![Download](https://img.shields.io/badge/Download%20UpDateNTime-blue)](https://github.com/retrozinndev/UpDateNTime/releases/download/latest/UpDateNTime.zip)
 
-3. Open your **Downloads folder** in your File Explorer
+3. Open the **⬇️ Downloads** folder in your **📂 File Explorer**
 
-4. Extract the "**Release.zip**" File (You can use either **Windows Zip Extractor**(built-in), [**WinRAR**](https://win-rar.com) or [**7-zip**](https://7-zip.org)
+4. Extract the downloaded zip file (You can either extract it normally or using [**WinRAR**](https://win-rar.com) / [**7-zip**](https://7-zip.org)
   ![Extracting the Release.zip file](https://github.com/retrozinndev/UpDateNTime/assets/65513943/77039635-52cf-4fe2-8083-65296c048f55)
 
 5. Go to the extracted folder, and start the "**UpDateNTime.exe**"(or UpdateDateNTime.exe) file to start the app. <br>
   ![Running the app](https://github.com/retrozinndev/UpDateNTime/assets/65513943/a08eba5c-2798-449d-b375-03f3462d1874)
 
-### Updating your time
-You can simply click the "Update!" button in the app window, or check "Update automatically when computer  starts".
+## 🕙 Updating Date & Time
+To do that, you can: 
+1. Click the Update button in the application
+2. Check the Update automatically when computer starts check box.
+3. Never need to do that manually again!
 
 ## ❔ Support
-
 ### Problems on running the app 
 Possible solutions: 
 1. Install [**Microsoft .NET 6.0**](https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/sdk-6.0.411-windows-x64-installer)
-2. Allow the application to run in your antivirus, it can be blocking the usage of the app.
+2. Add an exception in your firewall/aniti-virus, it can be blocking the app from opening.
 3. Nothing works for you? [Open a new Issue](https://github.com/retrozinndev/UpDateNTime/issues/new) and describe your problem there.
 
-## ℹ️ Notice
-The original app name was "UpdateDateN'Time", and later was changed to "UpDateNTime", because it looks better. That's why some files still use the old name.
+## 💡 For curious People
+UpDateN'Time was originally named UpdateDateN'Time, but was changed later to sound cooler!
 
 ## ❤️ Contributing
 ### Want to help the project?
-If you want to help the project, you can freely make any change! Already got the code? Or want to help with documentation? [Start a Pull Request](https://github.com/retrozinndev/UpDateNTime/pulls). Want to report a bug? [Open a New Issue](https://github.com/retrozinndev/UpDateNTime/issues/new).
+If you want to do so, you can freely suggest any idea! Already got the code? Or want to help with documentation? [Fork](https://github.com/retrozinndev/UpDateNTime/fork) the project, do your stuff and [Start a Pull Request](https://github.com/retrozinndev/UpDateNTime/pulls). Want to report a bug? [Open a New Issue](https://github.com/retrozinndev/UpDateNTime/issues/new).
 
 ## 📜 License
 This repository uses the [**MIT License**](https://mit-license.org/), meaning **you can modify it privately, or use commercially(distribute to people and organizations freely)**. But **DO NOT** forget to give credits to the original project and developer! Put the same `LICENSE` file into your fork (or just don't modify it). 
